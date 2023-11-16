@@ -52,7 +52,7 @@ export const About = () => {
             <Image
               alt={"image_icons"}
               src="https://www.notion.so/cdn-cgi/image/format=webp,width=256/front-static/pages/home/giant-pencil-illustration.png"
-              style={{ width: "150px" }}
+              style={{ width: "200px" }}
               width={0}
               sizes="100vw"
               height={0}

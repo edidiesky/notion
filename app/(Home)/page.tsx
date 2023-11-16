@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Header } from './_components/Header';
 import { Hero } from './_components/Hero';
 import { About } from './_components/About';
+import { Newsletter } from './_components/Newsletter';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
+        <Newsletter/>
       </div>
     </div>
   );
