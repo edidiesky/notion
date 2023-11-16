@@ -20,7 +20,7 @@ const MovementRating = [
 
 export const Movement = () => {
   return (
-    <div className="py-12 flex w-full flex-col gap-y-20">
+    <div className="py-12 flex w-full flex-col items-start gap-y-20">
       {/* top part */}
       <div className="max-w-custom px-8 m-auto flex flex-col gap-y-4 items-center justify-center">
         <h2 className="text-4xl text-center font-bold sm:text-6xl">
@@ -62,28 +62,28 @@ export const Movement = () => {
             );
           })}
         </div>
-      </div>
-
-      {/* second part */}
-
-      <div className="max-w-custom px-8 m-auto flex flex-col gap-y-4 items-center justify-center">
-        <h2 className="text-4xl text-center font-bold sm:text-5xl">
-          Endless ways to use it
-        </h2>
-        <span className="flex hover:underline cursor-pointer item-center gap-x-4 text-text_blue_1">
-          Browse all templates
-        </span>
-        <div className="w-full flex flex-col gap-x-8 md:flex-row">
-          <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
-          <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+        {/* second part */}
+        <div className="w-full px-8 m-auto flex flex-col gap-y-4 items-center justify-center">
+          <h2 className="text-4xl text-center font-bold sm:text-5xl">
+            Endless ways to use it
+          </h2>
+          <span className="flex hover:underline cursor-pointer item-center gap-x-4 text-text_blue_1">
+            Browse all templates
+          </span>
+          <div className="w-full flex flex-col gap-x-8 md:flex-row">
             <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
-            <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
-            <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
-            <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
-            <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+            <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+              <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+              <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+              <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+              <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+              <div className="flex flex-1 cursor-pointer rounded-2xl bg-gray-50 flex-col p-8 gap-y-3 hover:bg-slate-100"></div>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* second part */}
     </div>
   );
 };
