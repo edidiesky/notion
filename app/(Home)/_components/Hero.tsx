@@ -7,11 +7,11 @@ export const Hero = () => {
   return (
     <div className="min-h-full py-6">
       <div className="max-w-custom px-8 m-auto flex flex-col gap-y-8 items-center justify-center">
-        <h2 className="text-7xl text-center font-bold">
+        <h2 className="text-5xl md:text-7xl text-center font-bold">
           Write, plan, share.
           <span className="block">With AI at your side.</span>
         </h2>
-        <span className="text-2xl text-semibold">
+        <span className="text-xl sm:text-2xl text-semibold">
           Notion is the connected workspace where better, faster work happens.
         </span>
         <picture className="w-100 m-auto">
