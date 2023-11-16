@@ -26,10 +26,10 @@ export const About = () => {
           Powering the world’s best teams, from next-generation startups to
           established enterprises.
         </span>
-        <span className="flex cursor-pointer item-center gap-x-4 text-text_blue_1">
+        <span className="flex cursor-pointer item-center gap-x-4 text-text_blue_1 hover:underline">
           Read Customer Support
         </span>
-        <div className="flex m-auto justify-center py-8 item-center flex-wrap gap-x-6 gap-y-12 w-full md:w-1/2 sm:w-full">
+        <div className="flex m-auto justify-center py-8 item-center flex-wrap gap-x-6 gap-y-12 w-full md:w-9/12 sm:w-full">
           {icons?.map((x: string) => {
             return (
               <Image

@@ -7,8 +7,8 @@ const headerlist = ["Product", "Download", "Solutions", "Resources", 'Pricing'];
 export const Header = () => {
   return (
     <div className="py-6 sticky top-0 bg-white backdrop-filter backdrop-blur-md">
-      <div className=" px-8 m-auto flex items-center">
-        <div className="flex-1 flex items-center gap-x-4">
+      <div className="w-full px-8 m-auto flex items-center">
+        <div className="flex items-center gap-x-4">
           <Logo />
           <ul className="hidden items-center gap-x-4 lg:flex">
             {headerlist.map((x?: any, index?: any) => {
@@ -24,7 +24,7 @@ export const Header = () => {
           </ul>
         </div>
         <div className="flex-1 flex item-center justify-end">
-          <ul className="flex items-center justify-between gap-x-6">
+          <ul className="flex items-center justify-between gap-x-3 sm:gap-x-4">
             <li className="text-sm cursor-pointer hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
               Request a demo
             </li>
