@@ -15,7 +15,7 @@ export const Header = () => {
               return (
                 <li
                   key={index}
-                  className="text-sm hover:bg-gray-100 py-2 px-3 rounded-md font-medium"
+                  className="text-sm cursor-pointer hover:bg-gray-100 py-2 px-3 rounded-md font-medium"
                 >
                   {x}
                 </li>
@@ -25,10 +25,10 @@ export const Header = () => {
         </div>
         <div className="flex-1 flex item-center justify-end">
           <ul className="flex items-center justify-between gap-x-6">
-            <li className="text-sm hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
+            <li className="text-sm cursor-pointer hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
               Request a demo
             </li>
-            <li className="text-sm hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
+            <li className="text-sm cursor-pointer hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
               Log in
             </li>
             <Button size="sm">Get Cotion free</Button>

@@ -14,12 +14,13 @@ export const Hero = () => {
         <span className="text-2xl text-semibold">
           Notion is the connected workspace where better, faster work happens.
         </span>
-        <picture style={{ maxWidth: "650px"}} className="w-100 m-auto px-">
+        <picture className="w-100 m-auto">
           <Image
-            style={{ width: "100%",objectFit:"contain" }}
+            style={{ width: "650px" }}
             alt="Cotion"
-            width={100}
-            height={100}
+            width={0}
+            sizes="100vw"
+            height={0}
             loading="lazy"
             src="https://www.notion.so/cdn-cgi/image/format=webp,width=2048/https://images.ctfassets.net/spoqsaf9291f/3csRrNi1u82ymVlwjfo2E6/02516e52af15501acd822d3e7a03baf9/home-hero.png"
           />

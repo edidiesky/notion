@@ -17,7 +17,7 @@ const icons = [
 ];
 export const About = () => {
   return (
-    <div className="w-100 py-20">
+    <div className="w-100 py-20 flex flex-col gap-y-16">
       <div className="max-w-custom px-8 m-auto flex flex-col gap-y-4 items-center justify-center">
         <h2 className="text-5xl text-center font-bold">
           Millions run on Cotion every day
@@ -41,6 +41,62 @@ export const About = () => {
               />
             );
           })}
+        </div>
+      </div>
+      <div className="max-w-custom px-8 m-auto flex flex-col gap-y-4 items-center justify-center">
+        <div className="flex items-center justify-center gap-x-8">
+          <h2 className="text-5xl text-center font-bold">
+            Consolidate <span className="block"> Cut costs.</span>
+          </h2>
+          <picture className="w-full">
+            <Image
+              alt={"image_icons"}
+              src="https://www.notion.so/cdn-cgi/image/format=webp,width=256/front-static/pages/home/giant-pencil-illustration.png"
+              style={{ width: "150px" }}
+              width={0}
+              sizes="100vw"
+              height={0}
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <div className="flex w-full justify-center py-8 flex-col gap-y-10">
+          <picture className="w-full flex items-center justify-center">
+            <Image
+              className="w-full"
+              alt={"image_icons"}
+              src="https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-before-notion-V2.png"
+              style={{ width: "650px" }}
+              width={0}
+              sizes="100vw"
+              height={0}
+              loading="lazy"
+            />
+          </picture>
+          <p className="text-2xl w-9/12 m-auto text-text_dark_2 text-center text-bold">
+            We got rid of nearly a dozen different tools because of what Notion
+            does for us.
+          </p>
+          <div className="flex items-center justify-center gap-x-6">
+            <picture className="">
+              <Image
+                alt={"image_icons"}
+                src="https://www.notion.so/cdn-cgi/image/format=webp,width=128/front-static/shared/logos/color/metalab.png"
+                style={{ width: "120px" }}
+                width={0}
+                sizes="100vw"
+                height={0}
+                loading="lazy"
+              />
+            </picture>
+            <h4 className="text-sm text-grey">
+              Justin Watt
+              <span className="block text-md font-bold">
+                Director of Ops & Marketing, MetaLab
+              </span>
+            </h4>
+          </div>
         </div>
       </div>
     </div>
