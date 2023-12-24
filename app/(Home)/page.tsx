@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import { Header } from './_components/Header';
+import { Header } from '../_common/Header';
 import { Hero } from './_components/Hero';
 import { About } from './_components/About';
 import { Newsletter } from './_components/Newsletter';
